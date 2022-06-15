@@ -1,0 +1,25 @@
+id: '1'
+version: '0.1.0'
+config:
+  testRunner:
+    command: python -m tap
+    args:
+      filter: --grep
+      tap: --tap-stream
+    directory: coderoad
+  setup:
+    commands:
+      - cd coderoad && npm install
+  repo:
+    uri: https://github.com/GothicEU/python-textbox
+    branch: v0.1.0
+  dependencies:
+    - name: node
+      version: '>=10'
+levels:
+  - id: '1'
+    steps:
+      - id: '1.1'
+        setup:
+            files:
+              - textbox.py
