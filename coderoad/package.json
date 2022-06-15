@@ -4,7 +4,7 @@
   "description": "",
   "main": "textbox.py",
   "scripts": {
-    "programmatic-test": "python -m tap test/test.py",
+    "programmatic-test": "python -m tap",
     "test": "textbox.py"
   },
   "author": "",
