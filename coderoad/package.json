@@ -1,0 +1,12 @@
+{
+  "name": "coderoad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "textbox.py",
+  "scripts": {
+    "programmatic-test": "python -m unittest test/test.py",
+    "test": "textbox.py"
+  },
+  "author": "",
+  "license": "ISC"
+}
